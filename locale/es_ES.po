@@ -1,0 +1,11 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.line,lot:"
+msgid "Lot"
+msgstr "Lote"
+
+msgctxt "field:sale.line,product_type:"
+msgid "Product Type"
+msgstr "Tipo de producto"
