@@ -5,10 +5,10 @@ from trytond.model import fields
 from trytond.pyson import Eval
 
 __all__ = ['SaleLine']
-__metaclass__ = PoolMeta
 
 
 class SaleLine:
+    __metaclass__ = PoolMeta
     __name__ = 'sale.line'
 
     product_type = fields.Function(fields.Char('Product Type'),
