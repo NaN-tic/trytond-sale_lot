@@ -7,8 +7,7 @@ from trytond.pyson import Eval
 __all__ = ['SaleLine']
 
 
-class SaleLine:
-    __metaclass__ = PoolMeta
+class SaleLine(metaclass=PoolMeta):
     __name__ = 'sale.line'
 
     product_type = fields.Function(fields.Char('Product Type'),
